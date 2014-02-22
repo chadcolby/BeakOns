@@ -82,7 +82,9 @@
     if (state == CLRegionStateInside) {
         ESTBeaconRegion *beaconRegion = (ESTBeaconRegion *)region;
         [self.beaconManager startRangingBeaconsInRegion:beaconRegion];
+        
     }
+
 }
 
 - (void)beaconManager:(ESTBeaconManager *)manager didEnterRegion:(ESTBeaconRegion *)region
@@ -90,10 +92,12 @@
     ESTBeaconRegion *beaconRegion = (ESTBeaconRegion *)region;
     if ([beaconRegion.identifier isEqualToString:@"CodeFellowsRegion"]) {
         [self.beaconManager startRangingBeaconsInRegion:beaconRegion];
+        
 
     }
         [self presentEnteringNotification];
         [self setUpBeaconIcon];
+
 }
 
 - (void)beaconManager:(ESTBeaconManager *)manager didExitRegion:(ESTBeaconRegion *)region
@@ -104,7 +108,6 @@
     }
     [self.dotPos removeFromSuperview];
     self.view.backgroundColor = [UIColor whiteColor];
-    //[self showAlertView];
     [self presentLeavingNotification];
 }
 
@@ -177,7 +180,7 @@
 {
     UILocalNotification *leaveNotification = [[UILocalNotification alloc]init];
     leaveNotification.alertBody = @"You're Too Far Away";
-    leaveNotification.alertAction = @"Get Your Ass Back In There";
+    leaveNotification.alertAction = @"Go Back";
     leaveNotification.soundName = UILocalNotificationDefaultSoundName;
 
     
