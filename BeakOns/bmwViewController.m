@@ -17,6 +17,7 @@
 @property (assign, nonatomic) BOOL notificationSound;
 @property (strong, nonatomic) UIImageView *dotPos;
 @property (strong, nonatomic) ESTBeacon *selectedBeacon;
+@property (strong, nonatomic) ESTBeaconRegion *mainRegion;
 
 @property (nonatomic) float dotMinPos;
 @property (nonatomic) float dotRange;
@@ -29,18 +30,20 @@
 {
     [super viewDidLoad];
     
+    NSLog(@"#: %@", ESTIMOTE_PROXIMITY_UUID);
+    
     self.beaconManager = [[ESTBeaconManager alloc] init];
     self.beaconManager.delegate = self;
     self.beaconManager.avoidUnknownStateBeacons = YES;
     
-    ESTBeaconRegion *region = [[ESTBeaconRegion alloc] initWithProximityUUID:ESTIMOTE_PROXIMITY_UUID major:4326 minor:25951 identifier:@"Code.Fellow.Worskspace"];
+    self.mainRegion = [[ESTBeaconRegion alloc] initWithProximityUUID:ESTIMOTE_PROXIMITY_UUID major:50458 minor:60833 identifier:@"Code.Fellow.Worskspace"];
     
-    region.notifyOnEntry = YES;
-    region.notifyOnExit = YES;
-    region.notifyEntryStateOnDisplay = YES;
+    self.mainRegion.notifyOnEntry = YES;
+    self.mainRegion.notifyOnExit = YES;
+    self.mainRegion.notifyEntryStateOnDisplay = YES;
     
-    [self.beaconManager startRangingBeaconsInRegion:region];
-    [self.beaconManager requestStateForRegion:region];
+    [self.beaconManager startRangingBeaconsInRegion:self.mainRegion];
+    [self.beaconManager requestStateForRegion:self.mainRegion];
     
 
     [self setUpReferenceIcon];
@@ -161,6 +164,9 @@
             
         case CLProximityImmediate:
             self.view.backgroundColor = [UIColor redColor];
+            
+            [self showCloseAlert];
+            [self pauseMonitoring:self.mainRegion];
             break;
             
         case CLProximityNear:
@@ -196,5 +202,25 @@
     enterNotification.soundName = UILocalNotificationDefaultSoundName;
     
     [[UIApplication sharedApplication] presentLocalNotificationNow:enterNotification];
+}
+
+- (void)showCloseAlert
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Yo" message:@"You are really close to something" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles: nil];
+    [alert show];
+}
+
+- (void)pauseMonitoring:(ESTBeaconRegion *)region
+{
+    ESTBeaconRegion *beaconRegion = (ESTBeaconRegion *)region;
+    [self.beaconManager stopRangingBeaconsInRegion:beaconRegion];
+    
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 0) {
+        [self.beaconManager startRangingBeaconsInRegion:self.mainRegion];
+    }
 }
 @end

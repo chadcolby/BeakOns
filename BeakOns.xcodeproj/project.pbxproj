@@ -22,6 +22,22 @@
 		8D08B43418B7C80500480800 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D08B41618B7C80400480800 /* UIKit.framework */; };
 		8D08B43C18B7C80500480800 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D08B43A18B7C80500480800 /* InfoPlist.strings */; };
 		8D08B43E18B7C80500480800 /* BeakOnsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D08B43D18B7C80500480800 /* BeakOnsTests.m */; };
+		8DA1CC8318C6B22D002DB1A9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7318C6B22D002DB1A9 /* Icon-72.png */; };
+		8DA1CC8418C6B22D002DB1A9 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7418C6B22D002DB1A9 /* Icon-72@2x.png */; };
+		8DA1CC8518C6B22D002DB1A9 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7518C6B22D002DB1A9 /* Icon-Small-50.png */; };
+		8DA1CC8618C6B22D002DB1A9 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7618C6B22D002DB1A9 /* Icon-Small-50@2x.png */; };
+		8DA1CC8718C6B22D002DB1A9 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7718C6B22D002DB1A9 /* Icon-Small.png */; };
+		8DA1CC8818C6B22D002DB1A9 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7818C6B22D002DB1A9 /* Icon-Small@2x.png */; };
+		8DA1CC8918C6B22D002DB1A9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7918C6B22D002DB1A9 /* Icon.png */; };
+		8DA1CC8A18C6B22D002DB1A9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7A18C6B22D002DB1A9 /* Icon@2x.png */; };
+		8DA1CC8B18C6B22D002DB1A9 /* ios7_app_icon_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7B18C6B22D002DB1A9 /* ios7_app_icon_ipad.png */; };
+		8DA1CC8C18C6B22D002DB1A9 /* ios7_app_icon_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7C18C6B22D002DB1A9 /* ios7_app_icon_ipad@2x.png */; };
+		8DA1CC8D18C6B22D002DB1A9 /* ios7_app_icon_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7D18C6B22D002DB1A9 /* ios7_app_icon_iphone.png */; };
+		8DA1CC8E18C6B22D002DB1A9 /* ios7_app_icon_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7E18C6B22D002DB1A9 /* ios7_app_icon_iphone@2x.png */; };
+		8DA1CC8F18C6B22D002DB1A9 /* ios7_settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC7F18C6B22D002DB1A9 /* ios7_settings_icon.png */; };
+		8DA1CC9018C6B22D002DB1A9 /* ios7_settings_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC8018C6B22D002DB1A9 /* ios7_settings_icon@2x.png */; };
+		8DA1CC9118C6B22D002DB1A9 /* ios7_spotlight_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC8118C6B22D002DB1A9 /* ios7_spotlight_icon.png */; };
+		8DA1CC9218C6B22D002DB1A9 /* ios7_spotlight_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1CC8218C6B22D002DB1A9 /* ios7_spotlight_icon@2x.png */; };
 		8DA7CE6418B7CA790027C011 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA7CE6218B7CA790027C011 /* CoreBluetooth.framework */; };
 		8DA7CE6518B7CA790027C011 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA7CE6318B7CA790027C011 /* CoreLocation.framework */; };
 		8DA7CE7118B81A2F0027C011 /* beacon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA7CE7018B81A2F0027C011 /* beacon1.png */; };
@@ -59,6 +75,22 @@
 		8D08B43918B7C80500480800 /* BeakOnsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeakOnsTests-Info.plist"; sourceTree = "<group>"; };
 		8D08B43B18B7C80500480800 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D08B43D18B7C80500480800 /* BeakOnsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeakOnsTests.m; sourceTree = "<group>"; };
+		8DA1CC7318C6B22D002DB1A9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		8DA1CC7418C6B22D002DB1A9 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		8DA1CC7518C6B22D002DB1A9 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		8DA1CC7618C6B22D002DB1A9 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		8DA1CC7718C6B22D002DB1A9 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		8DA1CC7818C6B22D002DB1A9 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		8DA1CC7918C6B22D002DB1A9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8DA1CC7A18C6B22D002DB1A9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		8DA1CC7B18C6B22D002DB1A9 /* ios7_app_icon_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios7_app_icon_ipad.png; sourceTree = "<group>"; };
+		8DA1CC7C18C6B22D002DB1A9 /* ios7_app_icon_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7_app_icon_ipad@2x.png"; sourceTree = "<group>"; };
+		8DA1CC7D18C6B22D002DB1A9 /* ios7_app_icon_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios7_app_icon_iphone.png; sourceTree = "<group>"; };
+		8DA1CC7E18C6B22D002DB1A9 /* ios7_app_icon_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7_app_icon_iphone@2x.png"; sourceTree = "<group>"; };
+		8DA1CC7F18C6B22D002DB1A9 /* ios7_settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios7_settings_icon.png; sourceTree = "<group>"; };
+		8DA1CC8018C6B22D002DB1A9 /* ios7_settings_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7_settings_icon@2x.png"; sourceTree = "<group>"; };
+		8DA1CC8118C6B22D002DB1A9 /* ios7_spotlight_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios7_spotlight_icon.png; sourceTree = "<group>"; };
+		8DA1CC8218C6B22D002DB1A9 /* ios7_spotlight_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7_spotlight_icon@2x.png"; sourceTree = "<group>"; };
 		8DA7CE6218B7CA790027C011 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		8DA7CE6318B7CA790027C011 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8DA7CE7018B81A2F0027C011 /* beacon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beacon1.png; sourceTree = "<group>"; };
@@ -137,6 +169,7 @@
 				8D08B42818B7C80400480800 /* bmwViewController.m */,
 				8DA7CE7018B81A2F0027C011 /* beacon1.png */,
 				8DA7CE7418B81B1C0027C011 /* iPhone1.png */,
+				8DA1CC7218C6B22D002DB1A9 /* Untitled Icons_1 */,
 				8D08B42A18B7C80400480800 /* Images.xcassets */,
 				8D08B41918B7C80400480800 /* Supporting Files */,
 			);
@@ -170,6 +203,30 @@
 				8D08B43A18B7C80500480800 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DA1CC7218C6B22D002DB1A9 /* Untitled Icons_1 */ = {
+			isa = PBXGroup;
+			children = (
+				8DA1CC7318C6B22D002DB1A9 /* Icon-72.png */,
+				8DA1CC7418C6B22D002DB1A9 /* Icon-72@2x.png */,
+				8DA1CC7518C6B22D002DB1A9 /* Icon-Small-50.png */,
+				8DA1CC7618C6B22D002DB1A9 /* Icon-Small-50@2x.png */,
+				8DA1CC7718C6B22D002DB1A9 /* Icon-Small.png */,
+				8DA1CC7818C6B22D002DB1A9 /* Icon-Small@2x.png */,
+				8DA1CC7918C6B22D002DB1A9 /* Icon.png */,
+				8DA1CC7A18C6B22D002DB1A9 /* Icon@2x.png */,
+				8DA1CC7B18C6B22D002DB1A9 /* ios7_app_icon_ipad.png */,
+				8DA1CC7C18C6B22D002DB1A9 /* ios7_app_icon_ipad@2x.png */,
+				8DA1CC7D18C6B22D002DB1A9 /* ios7_app_icon_iphone.png */,
+				8DA1CC7E18C6B22D002DB1A9 /* ios7_app_icon_iphone@2x.png */,
+				8DA1CC7F18C6B22D002DB1A9 /* ios7_settings_icon.png */,
+				8DA1CC8018C6B22D002DB1A9 /* ios7_settings_icon@2x.png */,
+				8DA1CC8118C6B22D002DB1A9 /* ios7_spotlight_icon.png */,
+				8DA1CC8218C6B22D002DB1A9 /* ios7_spotlight_icon@2x.png */,
+			);
+			name = "Untitled Icons_1";
+			path = "../Untitled Icons_1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,11 +308,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA1CC8918C6B22D002DB1A9 /* Icon.png in Resources */,
+				8DA1CC8A18C6B22D002DB1A9 /* Icon@2x.png in Resources */,
+				8DA1CC8618C6B22D002DB1A9 /* Icon-Small-50@2x.png in Resources */,
+				8DA1CC8C18C6B22D002DB1A9 /* ios7_app_icon_ipad@2x.png in Resources */,
+				8DA1CC8418C6B22D002DB1A9 /* Icon-72@2x.png in Resources */,
+				8DA1CC9118C6B22D002DB1A9 /* ios7_spotlight_icon.png in Resources */,
+				8DA1CC9218C6B22D002DB1A9 /* ios7_spotlight_icon@2x.png in Resources */,
+				8DA1CC8F18C6B22D002DB1A9 /* ios7_settings_icon.png in Resources */,
 				8D08B42B18B7C80400480800 /* Images.xcassets in Resources */,
 				8D08B41D18B7C80400480800 /* InfoPlist.strings in Resources */,
+				8DA1CC9018C6B22D002DB1A9 /* ios7_settings_icon@2x.png in Resources */,
+				8DA1CC8D18C6B22D002DB1A9 /* ios7_app_icon_iphone.png in Resources */,
 				8DA7CE7518B81B1C0027C011 /* iPhone1.png in Resources */,
 				8D08B42618B7C80400480800 /* Main.storyboard in Resources */,
+				8DA1CC8518C6B22D002DB1A9 /* Icon-Small-50.png in Resources */,
 				8DA7CE7118B81A2F0027C011 /* beacon1.png in Resources */,
+				8DA1CC8718C6B22D002DB1A9 /* Icon-Small.png in Resources */,
+				8DA1CC8318C6B22D002DB1A9 /* Icon-72.png in Resources */,
+				8DA1CC8B18C6B22D002DB1A9 /* ios7_app_icon_ipad.png in Resources */,
+				8DA1CC8E18C6B22D002DB1A9 /* ios7_app_icon_iphone@2x.png in Resources */,
+				8DA1CC8818C6B22D002DB1A9 /* Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
